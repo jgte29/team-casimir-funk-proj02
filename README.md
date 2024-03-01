@@ -30,7 +30,7 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
    git clone https://github.com/jgte29/team-casimir-funk-proj02.git
 
 2. Enter API Key:
-In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, replace the elipses below with your key. Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
+In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, enter it when prompted. Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
 Daily Limit: 50 requests per IP address per day). Your can learn more about rate limits [here](https://api.data.gov/docs/developer-manual/).
    ```python
-   print('Hello World')
+   api_key = ...
