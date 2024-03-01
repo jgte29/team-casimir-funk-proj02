@@ -36,7 +36,8 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
    api_key = 'my_USDA_API_Key_1234' # Enter your API key here
 
 ### Notebook Specific Usage Notes:
-1. nutritional_content.ipynb: When originally going about our research, we utilized the functions `handle_query_nc_calc` & `compile_ncs` to query the USDA FoodData Central API and pull the requisite nutritional contents for our food products. However, doing so takes a considerable amount of time. Therefore, in order to speed up and faciliate the usage of this notebook, especially when using the widgets in the master notebook, we have provided and read in a `.csv` file called `price_master.csv` that contains all of the information we compiled from the API. If you wish, feel free to run the code that we used to create `price_master.csv` by uncommenting the code in the cell that reads in file. <br>
+1. nutritional_content.ipynb: <be>
+When originally going about our research, we utilized the functions `handle_query_nc_calc` & `compile_ncs` to query the USDA FoodData Central API and pull the requisite nutritional contents for our food products. However, doing so takes a considerable amount of time. Therefore, in order to speed up and faciliate the usage of this notebook, especially when using the widgets in the master notebook, we have provided and read in a `.csv` file called `price_master.csv` that contains all of the information we compiled from the API. If you wish, feel free to run the code that we used to create `price_master.csv` by uncommenting the code in the cell that reads in file. <br>
 **Warning:** The code may take up to a couple of minutes to run, so re-comment the code after running it in order to avoid unintentionally re-running it.
    ```python
    price_master = pd.read_csv('./data/price_master.csv', dtype=str)
