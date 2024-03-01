@@ -1,1 +1,0 @@
-# team-casimir-funk-proj02
