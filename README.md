@@ -27,4 +27,4 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/project02_team_casimir_funk.git
+   git clone https://github.com/jgte29/team-casimir-funk-proj02.git
