@@ -29,8 +29,27 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
    ```bash
    git clone https://github.com/jgte29/team-casimir-funk-proj02.git
 
-2. Enter API Key:
+2. Enter API Key: <br>
 In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, you will need to enter it when prompted. *See below for example* Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
 Daily Limit: 50 requests per IP address per day). Your can learn more about rate limits [here](https://api.data.gov/docs/developer-manual/).
    ```python
    api_key = 'my_USDA_API_Key_1234' # Enter your API key here
+
+### Notebook Specific Usage Notes:
+1. nutritional_content.ipynb: When originally going about our research, we utilized the functions `handle_query_nc_calc` & `compile_ncs` to query the USDA FoodData Central API and pull the requisite nutritional contents for our food products. However, doing so takes a considerable amount of time. Therefore, in order to speed up and faciliate the usage of this notebook, especially when using the widgets in the master notebook, we have provided and read in a `.csv` file called `price_master.csv` that contains all of the information we compiled from the API. If you wish, feel free to run the code that we used to create `price_master.csv` by uncommenting the code in the cell that reads in file. <br>
+**Warning:** The code may take up to a couple of minutes to run, so re-comment the code after running it in order to avoid unintentionally re-running it.
+   ```python
+   price_master = pd.read_csv('./data/price_master.csv', dtype=str)
+
+   ### Only uncomment if using, otherwise, DO NOT UNCOMMENT! 
+   ### Code takes a lot of time to run and do not want to 
+   ### exceed API call rate limits
+   # ncs_master = pd.DataFrame()
+   # search_col = 'GTIN/UPC'
+   # API_KEY = ... # Enter your own API Key
+   # fp_arr = price_rf[search_col]
+   
+   # for i in range(len(fp_arr)):
+   #     ncs_master = compile_ncs(ncs_master, fp_arr, i, API_KEY)
+   
+   # price_master = pd.concat([price_rf, ncs_master], axis = 1)
