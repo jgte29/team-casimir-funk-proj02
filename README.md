@@ -41,10 +41,6 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
    - If you have never used the `fooddatacentral` & `pint` Packages, you will likely have to `pip` install them. We have provided the code to do so in the notebook. All you have to do is uncomment the code to download such packages. *Recommended* Alternatively, you can download the packages by copying the code below in a terminal.
      ```bash
      pip install fooddatacentral
-
-     <br>
-     
-     ```bash
      pip install pint
 2.`price_master` Dataset:
 - When originally going about our research, we utilized the functions `handle_query_nc_calc` & `compile_ncs` to query the USDA FoodData Central API and pull the requisite nutritional contents for our food products. However, doing so takes a considerable amount of time. Therefore, in order to speed up and faciliate the usage of this notebook, especially when using the widgets in the master notebook, we have provided and read in a `.csv` file called `price_master.csv` that contains all of the information we compiled from the API. If you wish, feel free to run the code that we used to create `price_master.csv` by uncommenting the code in the cell that reads in file. <br>
