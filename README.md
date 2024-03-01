@@ -56,7 +56,7 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
    ### exceed API call rate limits
    # ncs_master = pd.DataFrame()
    # search_col = 'GTIN/UPC'
-   # API_KEY = config.API_KEY # Enter your own API Key
+   # API_KEY = ... # Enter your own API Key
    # fp_arr = price_rf[search_col]
    
    # for i in range(len(fp_arr)):
