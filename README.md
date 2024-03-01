@@ -42,6 +42,8 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
      ```bash
      pip install fooddatacentral
 
+     <br>
+     
      ```bash
      pip install pint
 2.`price_master` Dataset:
