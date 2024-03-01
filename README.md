@@ -50,16 +50,19 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
 **Warning:** The code may take up to a couple of minutes to run, so re-comment the code after running it in order to avoid unintentionally re-running it.
    ```python
    price_master = pd.read_csv('./data/price_master.csv', dtype=str)
-
+   
    ### Only uncomment if using, otherwise, DO NOT UNCOMMENT! 
    ### Code takes a lot of time to run and do not want to 
    ### exceed API call rate limits
    # ncs_master = pd.DataFrame()
    # search_col = 'GTIN/UPC'
-   # API_KEY = ... # Enter your own API Key
+   # API_KEY = config.API_KEY # Enter your own API Key
    # fp_arr = price_rf[search_col]
    
    # for i in range(len(fp_arr)):
    #     ncs_master = compile_ncs(ncs_master, fp_arr, i, API_KEY)
    
    # price_master = pd.concat([price_rf, ncs_master], axis = 1)
+   # price_master = price_master.dropna().reset_index(drop = True)
+   # price_master['Vitamin A, RAE'] = price_master['Vitamin A, RAE'] + price_master['Vitamin A, IU']*0.3
+   # price_master = price_master.drop(columns = ['Vitamin A, IU'])
