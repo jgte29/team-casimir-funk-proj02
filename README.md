@@ -39,10 +39,10 @@ Daily Limit: 50 requests per IP address per day). Your can learn more about rate
 - nutritional_content.ipynb: <br>
 1. `fooddatacentral` & `pint` Packages:
    - If you have never used the `fooddatacentral` & `pint` Packages, you will likely have to `pip` install them. We have provided the code to do so in the notebook. All you have to do is uncomment the code to download such packages. *Recommended* Alternatively, you can download the packages by copying the code below in a terminal.
-     For `fooddatacentral` -
+     - For `fooddatacentral`:
         ```bash
         pip install fooddatacentral
-     For `pint` -
+     - For `pint`:
         ```bash
         pip install pint
 2.`price_master` Dataset:
