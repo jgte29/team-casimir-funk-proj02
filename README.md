@@ -28,3 +28,7 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 
    ```bash
    git clone https://github.com/jgte29/team-casimir-funk-proj02.git
+
+2. Enter API Key:
+   ```python
+   print('Hello World')
