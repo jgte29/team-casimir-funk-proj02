@@ -21,3 +21,10 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 - nutritional_content.ipynb: In this notebook, we create our nutritional content functions. Moreover, we add the nutritional data to our food prices dataset.
 - food_prices.ipynb: This is a supplementary notebook that has select visualizations of price data at different stores.
 - food_price_vs_stores.ipynb: This is a supplementary notebook that has select visualizations comparing price data across stores in our analysis.
+
+## How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/project02_team_casimir_funk.git
