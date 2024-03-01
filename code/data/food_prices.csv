@@ -10,7 +10,7 @@ Milk,717544202264,4.99,64.00,Floz,Organic Reduced Fat Milk ,021130070695,2.79,32
 Frozen Shrimp,041735048554,11.99,1.00,lb,Wild Raw Argentinian Red Shrimp,021130123230,13.98,2,lb,waterfront BISTRO Shrimp Raw Large Ez Peel Shell & Tail On Frozen 26-30 Count - 2 Lb,813493021281,21.99,32,oz,"Santa Monica Seafood Raw 21/25 Frozen Shrimp, Peeled Deveined",646232235133,11.99,1,lb,Peeled Deveined White Shrimp
 Chicken,085239028377,2.99,1.00,lb,Organic Chicken Drumsticks,085239028377,11.45,5,lb,Signature Farms Chicken Drumsticks Value Pack,024105593052,3.29,1,lb,Natural Chicken Drumstick,024105517058,4.99,1,lb,Organic Chicken Drumsticks
 Peanut Butter,072488981454,2.49,16.00,oz,Creamy Salted Peanut Butter,9300652800654,5.99,28,oz,Signature SELECT Peanut Butter Creamy,051500241370,3.99,16,oz,Jif Creamy Peanut Butter,072488981454,4.49,16,oz,Peanut Butter
-Spinach,854311007094,1.99,6.00,oz,Organic Baby Spinach,021130146697,3.50,5,oz,O Organics Organic Baby Spinach,085680400418,2.59,10,oz,Muzzi Baby Spinach,085680400418,4.49,5,oz,Baby Spinach
+Spinach,021130146697,1.99,6.00,oz,Organic Baby Spinach,021130146697,3.50,5,oz,O Organics Organic Baby Spinach,085680400418,2.59,10,oz,Muzzi Baby Spinach,085680400418,4.49,5,oz,Baby Spinach
 Cucumber,895580002816,2.49,1.00,lb,Persian Cucumbers,095829420030,1.00,14,oz,Cucumber,095829420030,1.64,14,oz,Organic Cucumber,895580002816,1.29,14,oz,Slicing Cucumbers
 Carrots,078783908066,1.69,24.00,oz,Cut and Peeled Carrots,078783908066,2.99,16,oz,Signature Select/Farms Baby-Cut Peeled Carrots,078783513031,1.75,1,lb,"""Grimmway Farms"" Baby Carrots",030034302894,1.49,1,lb,Organic Loose Carrots
 Yogurt ,00414340,0.99,5.30,oz,Nonfat Plain Greek Yogurt,021130125746,4.99,24,oz,Greek Gods Yogurt Greek Style Traditional Plain,0689544083009,9.39,32,oz,Fage Bestself Greek Yogurt,7203672758,7.99,32,oz,"Whole Milk Yogurt, Plain"
@@ -21,7 +21,7 @@ Butter,078354620113,3.99,16.00,oz,"Butter Quarters, Salted",032601033125,5.99,16
 Bell Peppers,874896005735,3.49,12.00,oz,Organic Red Bell Peppers,874896005735,2.00,0.33,lb,Red bell peppers,095829600241,2.63,1,lb,X-Fancy Green Bell Peppers,095829600241,2.49,1,lb,Green Bell Pepper
 Nuts,00079969,2.99,13.00,oz,"TRADER JOE'S, DRY ROASTED & SALTED ALMONDS",021130128877,3.50,16,oz,Planters peanuts dry roasted,00079969,8.69,1,lb,Raw Almonds,181174000390,4.99,16,oz,"Peanuts, Dry Roasted & Unsalted"
 Vegetable Oil,00475594	,2.99,5.00,oz,Organic Canola Oil Spray,021130266388,5.39,24,Floz,Signature SELECT oil vegetable pure,00027000612262,5.49,24,oz,Wesson Vegetable Oil,751884912162,4.69,32,Floz,Vegetable Oil - 365 by Whole Foods
-Fish,00958363,9.99,1.00,lb, ALBACORE TUNA IN WATER,021130283927,14.99,1.5,lb,Fish Salmon Atlantic Fillet Farm Raised Color Added Value Pack Service Case,096619626427,6.59,12,oz,Solid White Albacore Tuna,852986007425,13.99,1,lb,Atlantic Salmon Fillet
+Salmon,086600000961,9.99,1.00,lb, ALBACORE TUNA IN WATER,021130283927,14.99,1.5,lb,Fish Salmon Atlantic Fillet Farm Raised Color Added Value Pack Service Case,096619626427,10.99,1,lb,Fresh Atlantic Salmon Boneless Skinless Fillet,852986007425,13.99,1,lb,Atlantic Salmon Fillet
 Cheese,227870903297,4.29,16.00,oz,WISCONSIN SHARP CHEDDAR CHEESE,021130043026,9.99,32,oz,Lucerne Cheese Shredded Low-Moisture Part-Skim Mozzarella,026542821026,8.79,1,lb,American Cheese (Sliced),828653282457,5.99,6,oz,CHEESE SLICED MEDIUM CHEDDAR SHINGLE
 Cereal,00946629,2.49,15.00,oz,CORN CEREAL,021130152858,3.99,10.8,oz,Cheerios Honey Nut Cereal Whole Grain Oat Sweetened Real Honey,00016000150195,8.79,12,oz,General Mills Kix Cereal,018627742005,5.49,13.1,oz, GoLean Cereal - orginal
 Kale,021130284986,3.49,10.00,oz,Organic Shredded Kale,021130284986,3.49,1,lb,Organic green kale,681131098984	,1.59,1,lb,Green Kale,028764001613,2.99,1,lb,Organic Red Kale
@@ -45,4 +45,8 @@ Lentils,045255147186,3.29,17.63,oz,Steamed Lentils,071742801002,1.99,16,oz,Signa
 Brussels Sprouts,888670075128,4.99,2.00,lb,Brussels Sprouts,888670075128,3.99,1,lb,Brussels Sprouts,803944306746,4.59,1,lb,Organic Brussels Sprouts,093966907162,4.99,16,oz,Brussel Sprout Organic
 Edamame ,041268172030,3.99,9.00,oz,Shelled Edamame,041268172030,2.99,16,oz,Signature Select Edamame Shelled,049705691410,17.59,3,lb,Organic Shelled Edamame,041268172030,3.99,1,lb,Shelled Edamame
 Tofu,076371012218,1.79,14.00,oz,Organic Firm Tofu,853930005634,2.50,14,oz,Azumaya Tofu Extra Firm,061954004735,2.19,16,oz,Azumaya Silken Tofu,099482409258,4.99,10,oz,Hodo Extra Firm Organic Tofu
-Marmite,,,,,,,,,,,,,,,,,,,,
+Cod fillet,041130812026,10.99,1.00,lb,Wild Caught Cod Fillets,021130123933,12.99,1,lb,Alaskan Cod Fillet,029714155523,12.09,10,oz,Orca Bay Alaska Cod Fillets,099482477899,20.99,32,oz,Wild-Caught Cod Fillets
+Cantaloupe,850725002175,3.49,3.00,lb,Cantaloupe,850725002175,3.99,3.5,lb,Cantaloupe Melon,850725002175,1.59,1,lb,Cantaloupes,077890358160,6.49,1,lb,Cantaloupe Chunks Medium
+Squash,011110891099,3.99,20.00,oz,Cut Butternut Squash,032601025182,1.99,1,lb,Organic Butternut Squash,032601025182,1.86,1,lb,Organic Honeynut Squash,04646702648,3.19,16,oz,"Frozen organic vegetables, Butternut Squash"
+Grapefruit,077890024911,5.99,5.00,lb,Grapefruit,077890024911,2.49,8.7,oz,Organic Red Grapefruit,077890024911,2.63,8.7,oz,Large Flame Grapefruit,077890024911,1.99,1,lb,Grapefruit star
+Mandarins,888670108017,3.49,2.00,lb,Josie's Mandarins,888670108017,5.99,5,lb,Darling Mandarins,888670108017,2.59,1,lb,Gold Nugget Mandarins,888670108017,6.49,32,oz,Organic Mandarin
