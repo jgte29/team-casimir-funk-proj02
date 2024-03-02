@@ -23,19 +23,19 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 - food_versus_protein.ipynb: This is a supplementary notebook that visualizes the relationship between price and the protein richness of different food products.
 
 ## How to Use
-
-1. Clone the repository:
-
+1. Option A: Access Our Repository Via DataHub *Recommended*
+   - You can access all of the code in our repository via DataHub using this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjgte29%2Fteam-casimir-funk-proj02.git&urlpath=lab%2Ftree%2 Steam-casimir-funk-proj02.git%2f Branch=main)
+3. Option B: Clone the repository on your local device:
    ```bash
    git clone https://github.com/jgte29/team-casimir-funk-proj02.git
 
-2. Enter API Key: <br>
-In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, you will need to enter it when prompted. *See below for example* Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
+### Notebook Specific Usage Notes:
+- master_notebook.ipynb: <br>
+1. API Key:
+   - In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, you will need to enter it when prompted. *See below for example* Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
 Daily Limit: 50 requests per IP address per day). Your can learn more about rate limits [here](https://api.data.gov/docs/developer-manual/).
    ```python
    api_key = 'my_USDA_API_Key_1234' # Enter your API key here
-
-### Notebook Specific Usage Notes:
 - nutritional_content.ipynb: <br>
 1. `fooddatacentral` & `pint` Packages:
    - If you have never used the `fooddatacentral` & `pint` Packages, you will likely have to `pip` install them. We have provided the code to do so in the notebook. All you have to do is uncomment the code to download such packages. *Recommended* Alternatively, you can download the packages by copying the code below in a terminal.
