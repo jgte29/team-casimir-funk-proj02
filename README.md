@@ -23,7 +23,7 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 - food_versus_protein.ipynb: This is a supplementary notebook that visualizes the relationship between price and the protein richness of different food products.
 
 ## How to Use
-1. Option A: Access Our Repository Via DataHub *Recommended*
+1. Option A: Access Our Repository Via DataHub (*Highly Recommended*)
    - You can access all of the code in our repository via DataHub using this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjgte29%2Fteam-casimir-funk-proj02.git&urlpath=lab%2Ftree%2Fteam-casimir-funk-proj02.git%2F&branch=main).
 3. Option B: Clone the repository on your local device:
    ```bash
@@ -32,8 +32,8 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 ### Notebook Specific Usage Notes:
 - master_notebook.ipynb: <br>
 1. API Key:
-   - In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). Once you have one, you will need to enter it when prompted. *See below for example* Alternatively, you can use `DEMO_KEY` for your API key, however, the rate limits are much lower when using this strategy (Hourly Limit: 30 requests per IP address per hour;
-Daily Limit: 50 requests per IP address per day). Your can learn more about rate limits [here](https://api.data.gov/docs/developer-manual/).
+   - In order to access the USDA's database, you will need to sign up for an API Key, which you can do using this [link](https://fdc.nal.usda.gov/api-key-signup.html). If you already have one from class, that one will work as well. <br>
+**Note:** You must enter in your API Key as a **string.**
    ```python
    api_key = 'my_USDA_API_Key_1234' # Enter your API key here
 - nutritional_content.ipynb: <br>
