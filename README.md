@@ -1,17 +1,17 @@
 # EEP 153 Spring 2024 - Project 02 (Team Casimir Funk)
 
 ## Team Members
-Jordan Taqi-Eddin - jgte29@berkeley.edu
+Jordan Taqi-Eddin - jgte29@berkeley.edu; jgte29
 
-Khadija Arslan - khadija2002@berkeley.edu
+Khadija Arslan - khadija2002@berkeley.edu; KHADIJAARSLAN
 
-Xiang Wu - xiangwu@berkeley.edu
+Xiang Wu - xiangwu@berkeley.edu; xiangwu08
 
-Yingyin Li - yingyinli2001@berkeley.edu
+Yingyin Li - yingyinli2001@berkeley.edu; yingyinlii
 
-Marc Bonnot - mpb0614@berkeley.edu
+Marc Bonnot - mpb0614@berkeley.edu; marcpb0614
 
-Jane Wang - janeyjwang@berkeley.edu
+Jane Wang - janeyjwang@berkeley.edu; janeyjwang
 
 ## Welcome
 
