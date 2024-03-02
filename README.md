@@ -24,7 +24,7 @@ Welcome to the Project 02 GitHub Repository for Team Casimir Funk. Our code for 
 
 ## How to Use
 1. Option A: Access Our Repository Via DataHub *Recommended*
-   - You can access all of the code in our repository via DataHub using this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pullrepo=https%3A%2F%2Fgithub.com%2Fjgte29%2Fteam-casimir-funk-proj02.git&urlpath=lab%2Ftree%2 Steam-casimir-funk-proj02.git%2f Branch=main).
+   - You can access all of the code in our repository via DataHub using this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fjgte29%2Fteam-casimir-funk-proj02.git&urlpath=lab%2Ftree%2Fteam-casimir-funk-proj02.git%2F&branch=main).
 3. Option B: Clone the repository on your local device:
    ```bash
    git clone https://github.com/jgte29/team-casimir-funk-proj02.git
